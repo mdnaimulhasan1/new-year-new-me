@@ -140,3 +140,77 @@ ul li:before {
     margin-left: 64px;
     margin-bottom: 60px;
 }
+
+/* Footer style */
+
+footer{
+    background: #151414;
+}
+
+footer .container{
+    display: flex;
+    gap: 330px;
+    text-align: left;
+    padding: 130px 220px 130px 230px;
+}
+
+.footer-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+    color: white;
+}
+
+.footer-subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.footer-email{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: white;
+}
+.footer-mobile{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 32px;
+    color: white;
+}
+
+.social{
+    margin-right: 17px;
+}
+
+.subscrive{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.email-field{
+    height: 64px;
+    width: 325px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    border-color: white;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.subscribe-button{
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 20px 35px;
+    background: #005FAC;
+    border-radius: 8px;
+    color: white;
+}
