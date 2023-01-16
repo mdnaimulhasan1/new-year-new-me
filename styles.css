@@ -87,3 +87,56 @@ ul li:before {
         content: '✓'; 
         color: green;
        }
+
+       /* my plan style */
+      
+.my-plan-container{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 230px 130px 230px;
+}
+
+.info-section{
+    text-align: center;
+}
+
+.my-plan .section-heading{
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin: 130px 0 30px 0;
+}
+.my-plan-section-title{
+    font-weight: 700;
+    font-size: 30px;
+    margin: 16px 0;
+}
+.my-plan-section-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* call to action style */
+
+.call-to-action{
+    margin: 130px 230px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url("images/watch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 8px;
+}
+.call-to-action-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    padding: 60px 615px 24px 64px;
+}
+
+.call-to-action .btn-primary{
+    margin-left: 64px;
+    margin-bottom: 60px;
+}
